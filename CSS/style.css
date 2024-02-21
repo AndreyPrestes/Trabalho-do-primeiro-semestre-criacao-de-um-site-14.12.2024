@@ -1,0 +1,739 @@
+/* ******* Sor pediu para adicionar isso aqui, mas não explicou kkkk ******* */
+.clearfix::after {
+
+	content: "";
+
+	clear: both;
+
+	display: table;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ***************************************************************   */
+
+header {
+	background-color: #feca38;
+	width: 1200px;
+	height: 500px;
+}
+
+
+/* ↓↓↓↓↓↓↓ INICIO LOGO / MENU INICIAL    ↓↓↓↓↓↓↓↓↓↓↓ */
+
+#logo1 {
+	width: 350px;
+	margin-top: 40px;
+	margin-left: 435px;
+}
+
+h1 {
+	font-size: 50px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+}
+
+header nav {
+	margin-top: 80px;
+	margin-left: 70px;
+	line-height: 10px;
+}
+
+header ul li {
+	display: inline;
+	font-size: 35px;
+	margin-left: 83px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header nav ul li a:hover,
+header nav ul li a:active {
+	color: rgb(255, 255, 255);
+	transition: 0.5s;
+}
+
+header nav ul li a {
+	color: black;
+	text-decoration: none
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM LOGO / MENU INICIAL ↑↑↑↑↑↑↑↑↑↑↑ */
+
+/*---------------------História----------------------------*/
+#sessao1 {
+	background-color: black;
+	width: 1200px;
+	height: 600px;
+	margin-top: -20px;
+}
+
+#historia {
+	font-size: 45px;
+	margin-left: 100px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+	color: rgb(234, 178, 23);
+	height: 50px;
+	padding: 15px 0px;
+}
+
+#texto {
+	color: white;
+	font-size: 20px;
+	padding-left: 100px;
+	width: 50%;
+	line-height: 21px;
+}
+
+#B1 img {
+	width: 500px;
+
+	float: right;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ HISTORIA/FIM ↑↑↑↑↑↑↑↑↑↑↑ */
+
+/* ************* COMENTARIO *********** */
+
+.container-com {
+	width: 1160px;
+	background-color: #feca38;
+	padding: 20px;
+	text-align: center;
+}
+
+.comments {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.comment {
+	width: 1200px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+.container-com h3{
+	font-size: 30px;
+	line-height: 60px;
+}
+
+/* *************** COMENTARIO ******************** */
+
+/* <!-- ****************** Solução Rapida, saborosa e divertida ****************************** --> */
+
+#vant {
+	background-color: #feca38;
+	height: 430px;
+	padding-top: 30px;
+}
+
+.divertido {
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	line-height: 60px;
+	
+}
+
+h4 {
+	text-align: center;
+	padding: 15px 0px;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+/* *********aberto ******** */
+#aberto {
+	width: 170px;
+	float: left;
+	margin: 0px 40px;
+	padding-left: 100px;
+}
+
+.abertinho {
+	padding: 10px;
+	width: 140px;
+}
+
+.paberto{
+	padding-top: 10px;
+	font-family: sans-serif;
+}
+
+/* *********aberto ******** */
+
+/* *********aberto ******** */
+#pronto {
+	float: left;
+	width: 170px;
+	margin: 0px 40px;
+}
+
+.ppronto{
+	padding-top: 10px;
+	font-family: sans-serif;
+}
+
+
+/* *********pronto ******** */
+
+.cronometro {
+	padding: 25px;
+	width: 170px;
+}
+
+/* *********organico ******** */
+#organico {
+	width: 170px;
+	float: left;
+	margin: 0px 40px;
+}
+
+.org {
+	padding: 10px;
+	width: 140px;
+}
+
+.porganico{
+	padding-top: 10px;
+	font-family: sans-serif;
+}
+/* *********organico ******** */
+
+#cartoes {
+	width: 170px;
+	float: left;
+	margin: 0px 40px;
+}
+
+.cart {
+	padding: 10px;
+	width: 140px;
+}
+
+.pcartao{
+	padding-top: 10px;
+	font-family: sans-serif;
+}
+
+span {
+	font-size: large;
+	font-weight: bold;
+}
+
+
+
+
+/* <!-- ****************** Solução Rapida, saborosa e divertida ****************************** --> */
+
+/* ↓↓↓↓↓↓↓ INICIO DO NOVO CARDAPIO    ↓↓↓↓↓↓↓↓↓↓↓ */
+
+
+#cardapio {
+	background-image: url(imagens-fundo/pexels-adnorf-2788806\ 1\ 1.png);
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
+
+#cardapio ul li a {
+	text-decoration: none;
+	text-align: center;
+
+}
+
+#cardapio ul li {
+	border-radius: 10px;
+	width: 24%;
+	display: inline-block;
+	text-align: center;
+
+}
+
+#cardapio img {
+
+	width: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+#cardapio span {
+
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+
+}
+
+#cardapio h2 {
+	color: white;
+	font-size: 60px;
+	margin-left: 100px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO CARPADIO ↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+/* ↓↓↓↓↓↓↓ INICIO DO HAMBURGUERS    ↓↓↓↓↓↓↓↓↓↓↓ */
+
+.hamburguers {
+	height: 10%;
+	width: 1200px;
+	background-color: #feca38;
+	padding: 20px 0px;
+}
+
+.hamburguers hr {
+	height: 3px;
+	background-color: black;
+}
+
+.hamburguers span {
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	line-height: 90px;
+}
+
+#desc{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc2{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc3{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc4{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc5{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc6{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc7{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+#desc8{
+	text-align: right;
+	font-size: 30px;
+	width: 60%;
+	float: left;
+	margin-top: 100px;
+}
+
+
+
+.MontanhaRussa,
+.Kamikaze,
+.rodag,
+.crazyd,
+.barcov,
+.minhoc,
+.carrous,
+.sambas {
+
+	margin-left: 3%;
+	width: 20%;
+	float: left;
+}
+
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO HAMBURGUERS ↑↑↑↑↑↑↑↑↑↑↑ */
+
+/* INICIO DO BEBIDAS */
+
+#bebidas .nomesbebidas {
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 7px 0px;
+	line-height: 50px;
+}
+
+/* ************ refrigerante ***************** */
+
+#bebidas #refrigerante {
+	height: 400px;
+	width: 400px;
+	background-color: #feca38;
+	display: block;
+}
+
+.cocacola {
+	width: 100%;
+}
+
+.p-refrigerante {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+}
+
+/* ************ chopp ***************** */
+
+#bebidas #chopp {
+	height: 400px;
+	width: 410px;
+	background-color: #feca38;
+	float: right;
+	margin-top: -400PX;
+	margin-right: 33%;
+	display: block;
+}
+
+.shoppiho {
+	width: 40%;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+
+.p-chopp {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+}
+
+
+/* ************ aguas ***************** */
+
+#bebidas #aguas {
+	height: 400px;
+	width: 400px;
+	background-color: #feca38;
+	float: right;
+	margin-top: -400PX;
+	display: block;
+}
+
+.aguacrital01 {
+	width: 70%;
+	margin-left: 60px;
+}
+
+.p-aguas {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO BEBIDAS ↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+/* -- Inicio/Sobremesa --*/
+#sobremesa {
+	height: 430px;
+	background-color: #feca38;
+}
+
+#sobremesa h3 {
+	margin: 0% 0% 1% 20%;
+	font-size: 35px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+	line-height: 50px;
+}
+
+#sobremesa p {
+	line-height: 25px;
+	margin: 0% 0% 0% 25%;
+	font-size: 15px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+}
+
+/*------SUNDAE-------*/
+#sundae {
+	float: left;
+	margin: 1% 2% 0% 2%;
+}
+
+#sundae img {
+	width: 230px;
+	height: 250px;
+	border-radius: 50% 20% / 10% 40%;
+}
+
+/*------BROWNIE-------*/
+#brownie {
+	float: left;
+	margin: 1% 2% 0% 2%;
+}
+
+#brownie img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50% 20% / 10% 40%;
+}
+
+/*-----SORVETE--------*/
+#sorvete {
+	float: left;
+	margin: 1% 2% 0% 2%;
+}
+
+#sorvete img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50% 20% / 10% 40%;
+}
+
+/*-----TRUFA--------*/
+#trufa {
+	float: left;
+	margin: 1% 0% 0% 2%;
+}
+
+#trufa img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50% 20% / 10% 40%;
+}
+
+
+
+/* INICIO DO formulario  */
+
+#formulario {
+	width: 1200px;
+	background-color: white;
+	margin-top: 5px;
+	height: 500px;
+	line-height: 30px;
+}
+
+#formulario .reservas {
+	font-size: 30px;
+	margin-left: 100px;
+	padding: 10px 0px;
+	
+}
+
+#formulario p {
+	font-size: 18px;
+	width: 400px;
+	
+}
+
+input {
+	background-color: #feca38;
+	display:block
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO HAMBURGUERS ↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+/* INICIO DO FORMAS DE PAGAMENTO */
+#pagamento {
+	float: right;
+	margin-top: -500px;
+	margin-right: 37%;
+	padding: 10px 0px;
+}
+
+#pagamento .pagamento {
+	font-size: 30px;
+	margin-left: 31px;
+}
+
+#pagamento img {
+	width: 290px;
+	height: 290px;
+
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO PAGAMENTO ↑↑↑↑↑↑↑↑↑↑↑ */
+
+/* ******************************************************** */
+
+/* INICIO DO DELIVERY */
+
+#delivery {
+	float: right;
+	margin-left: 600px;
+	margin-top: -500PX;
+
+}
+
+
+#delivery .delivery {
+	font-size: 30px;
+	margin-top: -110px;
+	padding: 10px 0px;
+
+
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑ FIM DO DELIVERY ↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
+/* ↓↓↓↓↓↓↓ Outros restaurantes/INICIO  ↓↓↓↓↓↓↓↓↓↓↓ */
+
+#outros_restaurantes {
+	background-color: #feca38;
+	height: 600px;
+	padding-left: 50px;
+}
+
+#outros_restaurantes h3 {
+	margin: 0% 0% 0% 10%;
+	font-size: 35px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+	line-height: 60px;
+}
+
+#outros_restaurantes li {
+	line-height: 30px;
+}
+
+/*----------Gramado------------------*/
+#gramado {
+	float: left;
+	margin: 1% 5% 0% 10%;
+}
+
+#gramado img {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+	/*propriedade usada para arredondadr as bordas*/
+}
+
+#gramado iframe {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+
+/* ---------Novo Hamburgo------------------*/
+#novo-hamburgo {
+	float: left;
+	margin: 1% 5% 0% 0%;
+}
+
+#novo-hamburgo img {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+#novo-hamburgo iframe {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+
+/*----------Alvorada--------------------*/
+#alvorada {
+	float: left;
+	margin: 1% 5% 0% 0%;
+}
+
+#alvorada img {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+#alvorada iframe {
+	width: 250px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑----Final/Outros restaurantes---↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+hr {
+	height: 3px;
+	background-color: black;
+	margin: 0 0 0 0;
+}
+
+
+
+/* ↓↓↓↓↓↓↓ INICIO DO FOOTER    ↓↓↓↓↓↓↓↓↓↓↓ */
+
+#localizacao .endereco {
+	font-size: 20px;
+	float: right;
+	margin: -177px 600px;
+	line-height: 40px;
+}
+
+#localizacao .loja {
+	float: right;
+	margin: -177px 50px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+
+footer {
+	width: 1200px;
+	height: 260px;
+	background-color: #feca38;
+
+}
+
+#localizacao img {
+	padding: 10px 10px;
+	width: 250px;
+	display: block;
+}
+
+#localizacao .parkburguer {
+
+	font-size: 30px;
+	font-family: 'Agbalumo', Arial, Helvetica, sans-serif;
+	margin: 0px 44px;
+	display: block;
+}
